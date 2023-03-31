@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: radial-gradient(circle, rgba(0,0,0,0.75), rgba(0,0,0,0.25)), url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-image: url(https://a-static.besthdwallpaper.com/laptop-desk-wallpaper-1680x1050-16854_5.jpg);
+    height: 80vh;
+    background-attachment: fixed;
+}
+nav ul.menu li{
+    display: inline-block;
+    margin: 0 25px;
+    
+}
+
+.text-center{
+    text-align: center;
+    color: white;
+}
+.container-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav{
+    width: 100%;
+    position: fixed;
+    padding: 25px;
+}
+.txt{
+    color: aliceblue;
+    margin-left: 200px;
+}
+.mt-100{
+    padding-top: 150px;
+    font-size: 25px;
+}
+.mt-90{
+    font-size: 25px;
+}
+.mt-80{
+    font-size: 25px;
+}
+.btn{
+    background-color: blue;
+    width: 150px;
+    height: 40px;
+}
+.btnn{
+    background-color: initial;
+    color: white;
+    width: 180px;
+    height: 50px;
+}
+nav ul.menu li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.pg2{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    color: black;
+    text-align: center;
+}
+#phn{
+    color: blue;
+    font-size: 70px;
+    width: 33%;
+    margin: 100px;
+}
+#wllt{
+    color: blue;
+    font-size: 70px;
+    width: 33%;
+    margin: 100px;
+}
+#lght{
+    color: blue;
+    font-size: 70px;
+    width: 33%;  
+    margin: 100px;
+}
+#txt{
+    color: rgb(31, 31, 216);
+}
